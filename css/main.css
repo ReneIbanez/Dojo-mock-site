@@ -78,11 +78,13 @@ header{
   flex-wrap: wrap;
   justify-content: center;
   width: 100%;
-  border: 1px solid black
+  margin-top: 10%;
+  border: 1px solid black;
 }
 .second-content-wrapper h2{
   font-size: 40px;
-  width: 100%;
+  width: 0%;
+  margin-top: 0%;
   border: 1px solid black;
 
 
@@ -93,14 +95,15 @@ header{
   height: 240px;
   border: 1px solid black;
   order: 1;
+  align-self: flex-end;
 }
 .second-content-wrapper span{
   height: 0px;
-  width: 58%;
-  margin-left: 27%;
+  width: 52%;
+  margin-left: 33%;
   order: 3;
   flex-grow: 0;
-  flex-shrink: 1
+  flex-shrink: 1;
 }
 .second-content-wrapper span a{
   text-decoration: none;
@@ -124,4 +127,20 @@ header{
   flex-shrink: 2;
   order: 4;
   margin-left: -33%;
+}
+.bottom-section{
+  width: 100%;
+}
+
+.third-row{
+  width: 100%;
+}
+.third-content-wrapper{
+  height: auto;
+  display: flex;
+}
+
+.third-content-wrapper img{
+  width: 33.333%;
+  
 }
