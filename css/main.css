@@ -99,13 +99,11 @@ header{
 }
 .second-content-wrapper span{
   height: 0px;
-  width: 52%;
-  margin-left: 33%;
+  width: 8%;
   order: 3;
-  flex-grow: 0;
-  flex-shrink: 1;
+
 }
-.second-content-wrapper span a{
+.second-content-wrapper  section span a{
   text-decoration: none;
   color: red;
   font-size: 18px;
@@ -122,11 +120,9 @@ header{
 
 .second-content-wrapper p{
   border: 1px solid black;
-  width: 0%;
-  flex-grow: 1;
-  flex-shrink: 2;
+  width: 18%;
   order: 4;
-  margin-left: -33%;
+  margin-left: 25%;
 }
 .bottom-section{
   width: 100%;
@@ -142,5 +138,6 @@ header{
 
 .third-content-wrapper img{
   width: 33.333%;
-  
+  height: 250px;
+
 }
