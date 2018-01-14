@@ -141,3 +141,17 @@ header{
   height: 250px;
 
 }
+
+.last-section{
+  display: flex;
+
+}
+.forth-row{
+  display: flex;
+  width: 100%
+}
+
+.forth-content-wrapper img{
+  width: 100%;
+
+}
