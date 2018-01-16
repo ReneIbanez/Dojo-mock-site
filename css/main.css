@@ -148,10 +148,16 @@ header{
 }
 .forth-row{
   display: flex;
-  width: 100%
+  width: 100%;
+}
+.forth-content-wrapper{
+  width: 50%;
+  margin-left: 23%;
 }
 
 .forth-content-wrapper img{
   width: 100%;
+  height: auto;
+  object-fit: contain;
 
 }
