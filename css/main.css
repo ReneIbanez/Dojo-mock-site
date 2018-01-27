@@ -81,9 +81,14 @@ header{
   margin-top: 10%;
   border: 1px solid black;
 }
+.second-content-wrapper  section{
+  width: 100%;
+  display: flex;
+  order: 3;
+}
 .second-content-wrapper h2{
   font-size: 40px;
-  width: 0%;
+  width: 20%;
   margin-top: 0%;
   border: 1px solid black;
 
@@ -98,9 +103,10 @@ header{
   align-self: flex-end;
 }
 .second-content-wrapper span{
-  height: 0px;
-  width: 8%;
-  order: 3;
+  position: relative;
+  left: 30%;
+  top: 30px;
+}
 
 }
 .second-content-wrapper  section span a{
