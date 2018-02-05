@@ -42,6 +42,7 @@ header{
 }
 .headline-content span{
   color: gray;
+  font-size: 30px;
 
 }
 
@@ -94,9 +95,8 @@ header{
 }
 
 .second-content-wrapper img{
-  width: 300px;
+  width: 600px;
   height: 240px;
-  border: 1px solid black;
   order: 1;
   align-self: flex-end;
 }
@@ -125,6 +125,7 @@ header{
   width: 25%;
   order: 4;
   margin-left: 25%;
+  background: brown;
 }
 .bottom-section{
   width: 100%;
@@ -162,4 +163,7 @@ header{
   height: auto;
   object-fit: contain;
 
+}
+.forth-content-wrapper p{
+  background: blue;
 }
